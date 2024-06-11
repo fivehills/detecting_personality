@@ -88,13 +88,13 @@ To ensure that Python treats the `models` and `utils` directories as packages, a
 
 ```
 
-# This file is intentionally left blank to indicate that this directory is a Python package.
+This file is intentionally left blank to indicate that this directory is a Python package.
 ```
 utils/__init__.py
 
 ```
-# This file is intentionally left blank to indicate that this directory is a Python package.
+ This file is intentionally left blank to indicate that this directory is a Python package.
 
-# This structure and the simplified code should help you set up and run your project locally without exposing your code to the public.
+This structure and the simplified code should help you set up and run your project locally without exposing your code to the public.
 
-## The model is available at: https://huggingface.co/KevSun/Personality_LM
+### The model is available at: https://huggingface.co/KevSun/Personality_LM
