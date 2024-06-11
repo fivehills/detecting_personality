@@ -26,7 +26,7 @@ This project allows users to train and evaluate a model to predict Big Five pers
 DATA_URL=path/to/your/dataset.json
 ```
 
-# File Structure:
+## File Structure:
 ```
 big5_personality_prediction/
 ├── data/
@@ -45,9 +45,9 @@ big5_personality_prediction/
          
 ```
       
-# Usage
+## Usage
 
-##   Preprocess Data:
+###   Preprocess Data:
     
 Ensure your dataset is in the correct format and update the DATA_URL in config.py.
 
@@ -56,7 +56,7 @@ bash
 python utils/preprocess.py
 ```
 
-##  Train Model:
+###  Train Model:
 
 Train the model using the preprocessed data.
 ```
@@ -64,7 +64,7 @@ bash
 
 python utils/train.py
 ```
-##Evaluate Model:
+### Evaluate Model:
 
 Evaluate the trained model on the test dataset.
 ```
@@ -73,11 +73,11 @@ bash
 python utils/evaluate.py
 ```
 
-#Configuration
+## Configuration
 
 Update config.py with the appropriate settings for your dataset and training parameters.
 
-#License
+## License
 
 This project is licensed under the MIT License.
 
@@ -91,15 +91,16 @@ To ensure that Python treats the `models` and `utils` directories as packages, a
 ```
  `models/__init__.py`
 
-```python
+```
 
 # This file is intentionally left blank to indicate that this directory is a Python package.
-
+```
 utils/__init__.py
 
 python
-
+```
 # This file is intentionally left blank to indicate that this directory is a Python package.
 
-#This structure and the simplified code should help you set up and run your project locally without exposing your code to the public.
-# The model is available at: https://huggingface.co/KevSun/Personality_LM
+# This structure and the simplified code should help you set up and run your project locally without exposing your code to the public.
+
+## The model is available at: https://huggingface.co/KevSun/Personality_LM
