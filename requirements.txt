@@ -1,0 +1,10 @@
+transformers
+datasets
+sklearn
+torch
+numpy
+pandas
+matplotlib
+requests
+python-dotenv
+
