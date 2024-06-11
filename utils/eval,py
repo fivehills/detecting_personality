@@ -1,0 +1,16 @@
+from transformers import Trainer
+from utils.preprocess import preprocess_data
+
+def evaluate_model():
+    _, val_dataset, test_dataset, _ = preprocess_data()
+
+    trainer = Trainer()
+    results = trainer.evaluate(eval_dataset=test_dataset)
+
+    print("Evaluation results:", results)
+    return results
+
+if __name__ == "__main__":
+    evaluate_model()
+    print("Evaluation completed.")
+
