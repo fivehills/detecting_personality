@@ -26,8 +26,26 @@ This project allows users to train and evaluate a model to predict Big Five pers
 DATA_URL=path/to/your/dataset.json
 ```
 
-
-#Usage
+# File Structure:
+```
+big5_personality_prediction/
+├── data/
+│   └── sample_data.json  # Sample data placeholder
+├── models/
+│   └── __init__.py       # Initialization file for the models directory
+├── utils/
+│   ├── __init__.py       # Initialization file for the utils directory
+│   ├── preprocess.py     # Data preprocessing
+│   ├── train.py          # Training script
+│   └── evaluate.py       # Evaluation script
+├── config.py             # Configuration settings
+├── requirements.txt      # Required packages
+├── .gitignore            # Ignored files and directories
+└── README.md             # Project documentation
+         
+```
+      
+# Usage
 
 ##   Preprocess Data:
     
