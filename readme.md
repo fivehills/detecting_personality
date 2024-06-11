@@ -52,7 +52,6 @@ big5_personality_prediction/
 Ensure your dataset is in the correct format and update the DATA_URL in config.py.
 
  ```  
-bash
 python utils/preprocess.py
 ```
 
@@ -60,16 +59,12 @@ python utils/preprocess.py
 
 Train the model using the preprocessed data.
 ```
-bash
-
 python utils/train.py
 ```
 ### Evaluate Model:
 
 Evaluate the trained model on the test dataset.
 ```
-bash
-
 python utils/evaluate.py
 ```
 
@@ -89,7 +84,7 @@ php
 To ensure that Python treats the `models` and `utils` directories as packages, add `__init__.py` files:
 
 ```
- `models/__init__.py`
+ models/__init__.py`
 
 ```
 
@@ -97,7 +92,6 @@ To ensure that Python treats the `models` and `utils` directories as packages, a
 ```
 utils/__init__.py
 
-python
 ```
 # This file is intentionally left blank to indicate that this directory is a Python package.
 
