@@ -11,13 +11,13 @@ This project allows users to train and evaluate a model to predict Big Five pers
 ## Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone your-private-repository-url.git
    cd big5_personality_prediction
 ```
 
 2. Install the required packages:
-``bash
+``
  pip install -r requirements.txt
 ```
 
