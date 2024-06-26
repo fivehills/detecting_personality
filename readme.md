@@ -1,6 +1,6 @@
 # Big Five Personality Prediction
 
-This project allows users to train and evaluate a model to predict Big Five personality traits from text data using Hugging Face Transformers.
+The models allow users to train and evaluate a model to predict Big Five personality traits from text data using Hugging Face Transformers.
 
 ## Features
 
@@ -8,6 +8,16 @@ This project allows users to train and evaluate a model to predict Big Five pers
 - Trains a multi-label regression model
 - Evaluates model performance
 
+## Cite:
+```
+article{wang2024personality,
+  title={Continuous Output Personality Detection Models via Mixed Strategy Training},
+  author={Rong Wang, Kun Sun},
+  year={2024},
+  journal={ArXiv},
+  url={https://arxiv.org/abs/2406.16223}
+}
+```
 ## Installation
 
 1. Clone the repository:
